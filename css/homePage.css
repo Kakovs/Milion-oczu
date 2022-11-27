@@ -1,0 +1,1277 @@
+/* baner */
+.topSectionMargin{
+    margin-top: 100px;
+}
+
+.banerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#baner .logo{
+    margin: 202px 0 90px;
+    max-width: 266px;
+}
+
+#baner .signature{
+    font-size: 30px;
+    text-align: center;
+    line-height: 37px;
+    color: #A59F90;
+    font-weight: 400;
+    max-width: 380px;
+    margin-bottom: 43px;
+}
+
+#baner .title{
+    max-width: 1050px;
+    margin-bottom: 69px;
+    text-align: center;
+}
+
+#baner .button{
+    letter-spacing: 0.96px;
+    padding: 23px 31px 25px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 52px;
+}
+
+/* fullScreenImage */
+
+.fullScreenImage{
+    position: relative;
+    padding-top: 42.19%;
+}
+
+.fullScreenImage img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* tabsSection */
+
+#tabsSection{
+    padding: 100px 0 140px;
+}
+
+#tabsSection .subTitle{
+    margin-bottom: 30px;
+}
+
+#tabsSection .title{
+    margin-bottom: 80px;
+    max-width: 480px;
+}
+
+#tabsSection .active{
+    display: block;
+}
+
+.tabs{
+    margin: 60px 0;
+    padding-left: 0;
+}
+
+.tab{
+    display: block;
+}
+
+.tab p{
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 3.6px;
+    color: #A59F90;
+    transition: 0.3s;
+    margin-bottom: 18px;
+    font-weight: 400;
+}
+
+.tab p:hover{
+    cursor: pointer;
+    color: #0B1036;
+}
+
+.tab.active p{
+    color: #0B1036;
+}
+
+.description{
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.72px;
+    color: #0B1036;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+
+.tabContent{
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.tabContent>div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: 0.5s;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.tabContent>div.active{
+    transform: translateX(0%);
+    position: relative;
+}
+
+/* photoBesideText */
+
+#photoBesideText{
+    margin-bottom: 120px;
+}
+
+#photoBesideText .image{
+    position: relative;
+    padding-top: 62.64%;
+}
+
+#photoBesideText .image img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.noPadding{
+    padding: 0;
+}
+
+.imageSquare{
+    background-color: #FBD5CA;
+    padding: 0 25px;
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageSquare .imageTextTitle{
+    font-size: 30px;
+    line-height: 56px;
+    letter-spacing: 0.9px;
+    color: #0B1036;
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    margin: 14px 0 0;
+}
+
+.imageSquare .imageText{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.84px;
+    color: #0B1036;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+#photoBesideText .imageSquare .separator{
+    width: 37px;
+    margin: 0;
+}
+
+#photoBesideText .sideContent{
+    padding: 0 15% 0 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#photoBesideText .sideContent .button{
+    width: fit-content;
+    padding: 14px 26px 16px;
+    display: block;
+}
+
+#photoBesideText .separator{
+    margin-left: 18%;
+}
+
+#photoBesideText .subTitle{
+    margin-bottom: 62px;
+}
+#photoBesideText .title{
+    margin-bottom: 60px;
+}
+
+/* midPageBaner */
+
+#baner.midPageBaner .logo{
+    margin: 0px 0 72px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#baner.midPageBaner .logo img{
+    margin-top: -50px;
+}
+
+#baner.midPageBaner .button{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.86px;
+    padding: 25px 41px;
+    margin-bottom: 79px;
+}
+
+/* twoImagesSection */
+
+#twoImagesSection{
+    position: relative;
+    margin-bottom: 150px;
+}
+
+#twoImagesSection .image{
+    padding-top: 62.60%;
+    position: relative;
+}
+
+#twoImagesSection .image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#twoImagesSection .imageSquare{
+    background-color: #fff;
+    justify-content: flex-end;
+    padding: 34px 25px;
+
+}
+
+#twoImagesSection .imageSquare .imageTextTitle{
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 57px;
+}
+
+#twoImagesSection .imageSquare .imageText{
+    font-weight: 700;
+    margin-bottom: 0;
+    transition: 0.3s;
+}
+
+#twoImagesSection .imageSquare .imageText:hover{
+    text-decoration: underline;
+}
+
+.imageSquareRight{
+    left: 0;
+}
+
+.imageSquareRight::before{
+    content: '';
+    width: 1px;
+    height: 125px;
+    background-color: #0B1036;
+    left: 0;
+    top: 80px;
+    position: absolute;
+}
+
+.topTextTwoImagesSection{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 480px;
+    z-index: 1;
+}
+
+.topTextTwoImagesSection p{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* imageBesideText */
+
+#imageBesideText{
+    margin-bottom: 130px;
+}
+
+#imageBesideText .textContent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    z-index: 20;
+    position: relative;
+}
+
+#imageBesideText .subTitle{
+    margin-bottom: 30px;
+}
+
+#imageBesideText .title{
+    margin-bottom: 40px;
+}
+
+#imageBesideText .text{
+    margin-bottom: 60px;
+}
+
+#imageBesideText .button{
+    padding: 14px 36px 16px;
+    display: inline-block;
+    width: fit-content;
+}
+
+#imageBesideText .imageContent{
+    position: relative;
+    max-width: fit-content;
+    margin-left: auto;
+}
+
+#imageBesideText .date{
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#imageBesideText .leftMan{
+    position: absolute;
+    left: 45px;
+    top: 97px;
+}
+
+#imageBesideText .rightMan{
+    position: absolute;
+    left: 200px;
+    top: 76px;
+}
+
+#imageBesideText .cloud{
+    position: absolute;
+    top: -200px;
+    width: 524px;
+    left: 30px;
+    z-index: 10;
+}
+
+#imageBesideText .tower{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -35px;
+    z-index: 15;
+}
+
+#imageBesideText .sun{
+    position: absolute;
+    top: 46%;
+    left: 10px;
+    transform: translate(-50%, -50%);
+}
+
+#imageBesideText .moon{
+    position: absolute;
+    top: 46%;
+    right: 10px;
+    transform: translate(50%, -50%);
+}
+
+#imageBesideText .imageContentLeft{
+    margin-left: 0;
+}
+
+.textContentLeft{
+    margin-left: auto;
+}
+
+/* contactFormSection */
+
+#contactFormSection{
+    background-color: #0B1036;
+    position: relative;
+    padding-bottom: 122px;
+    overflow: hidden;
+}
+
+#contactFormSection .bigContainer{
+    z-index: 10;
+    position: relative;
+}
+
+#contactFormSection .smallerWidth{
+    max-width: 606px;
+}
+
+#contactFormSection .backgroundImage{
+    position: absolute;
+    bottom: -20px;
+    right: 0%;
+    transform: translateX(50%);
+}
+
+.imageContactFormSection{
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.imageContactFormSection .building{
+    margin-top: -20px;
+}
+
+.imageContactFormSection .hand{
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+}
+
+.textContactFormSection .subTitle{
+    margin-bottom: 21px;
+}
+
+.textContactFormSection .title{
+    margin-bottom: 37px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.callButton{
+    border: solid 1px #A59F90;
+    border-left: 0;
+    border-right: 0;
+    display: block;
+    padding: 14px 0 12px;
+}
+
+.callButton .number{
+    font-size: 24px;
+    line-height:32px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+    margin-bottom: 2px;
+}
+
+.callButton .call{
+    font-size: 14px;
+    line-height:18px;
+    color: #fff;
+    letter-spacing: 0.84px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#contactFormSection .contactFormSectionFormSide{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.formTitle .subTitle{
+    margin-bottom: 0px;
+}
+
+.formTitle .bigTitle{
+    font-size: 60px;
+    line-height:85px;
+    color: #fff;
+    letter-spacing: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 54px;
+}
+
+#contactFormSection .contactForm .typeIn{
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: transparent;
+    border: 1px solid #A59F90;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 24px 35px 26px 20px;
+    letter-spacing: 0.84px;
+}
+
+#contactFormSection .contactForm .typeIn::placeholder{
+    color: #fff;
+}
+
+#contactFormSection .contactForm .formCheckbox{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 26px;
+}
+
+#contactFormSection .contactForm .formCheckbox p{
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.72px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#contactFormSection .contactForm .formCheckbox .checkbox{
+    position: relative;
+    margin-right: 30px;
+    max-height: 30px;
+}
+
+#contactFormSection .contactForm .formCheckbox input{
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    visibility: hidden;
+}
+
+#contactFormSection .contactForm .formCheckbox .fakebox{
+    border: solid 1px #A59F90;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#contactFormSection .contactForm .formCheckbox .checkbox input:checked + .fakebox::after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 4px;
+    width: 80%;
+    border-radius: 10px;
+    background: #A59F90;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#contactFormSection .contactForm .formCheckbox .checkbox input:checked + .fakebox::before{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 4px;
+    width: 80%;
+    border-radius: 10px;
+    background: #A59F90;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+#contactFormSection .dots{
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+#contactFormSection .extraText{
+    display: none;
+}
+
+#contactFormSection .extraText.moreInfo{
+    display: inline;
+}
+
+.sendForm{
+    padding: 25px 40px;
+    width: 100%;
+    text-align: center;
+}
+
+/* mobile */
+
+@media (max-width: 1600px){
+    /* baner */
+
+    #baner .logo{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1366px){
+    /* twoImagesSection */
+
+    #twoImagesSection .imageSquare{
+        height: 220px;
+        width: 220px;
+    }
+}
+
+@media (max-width: 1280px){
+    #imageBesideText .imageContent,
+    #imageBesideText .imageContentLeft{
+        margin: auto;
+    }
+}
+
+@media (max-width: 1200px){
+    /* photoBesideText */
+
+    #photoBesideText .subTitle {
+        margin-bottom: 40px;
+    }
+
+    #photoBesideText .title{
+        margin-bottom: 40px;
+    }
+
+    /* imageBesideText */
+
+    #imageBesideText .imageContent>svg{
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    #imageBesideText .date{
+        top: 42px
+    }
+
+    #imageBesideText .date svg{
+        max-width: 100px;
+        max-height: 92px;
+    }
+
+    #imageBesideText .leftMan{
+        left: 36px;
+        top: 78px;
+        max-width: 164px;
+    }
+
+    #imageBesideText .rightMan{
+        left: 160px;
+        top: 61px;
+        max-width: 192px;
+    }
+
+    #imageBesideText .cloud{
+        top: -160px;
+        max-width: 419px;
+        left: 24px;
+    }
+
+    #imageBesideText .tower {
+        top: -28px;
+        max-width: 170px;
+    }
+
+    #imageBesideText .sun {
+        left: 8px;
+        max-width: 126px;
+    }
+
+    #imageBesideText .moon{
+        right: 8px;
+        max-width: 126px;
+    }
+
+}
+
+@media (max-width: 1199px){
+    /* imageBesideText */
+    #imageBesideText .imageContentRight {
+        margin-right: 0;
+    }
+
+    #imageBesideText .imageContentLeft {
+        margin-left: 0;
+    }
+
+    .formTitle .bigTitle{
+        font-size: 42px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 991px){
+    /* photoBesideText */
+    #photoBesideText .col-lg-7{
+        order: 0;
+    }
+
+    #photoBesideText .col-lg-5{
+        order: 1;
+    }
+
+    #photoBesideText .separator{
+        margin: 40px 15%;
+    }
+
+    #photoBesideText .sideContent{
+        padding: 0 15% 0 15%;
+    }
+
+    /* baner midPageBaner*/
+
+    #baner.midPageBaner{
+        margin-top: -20px;
+    }
+
+    /* twoImagesSection */
+
+    #twoImagesSection{
+        margin-bottom: 80px;
+    }
+
+    .topTextTwoImagesSection{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0);
+        max-width: 100%;
+        z-index: 1;
+        margin-bottom: 20px;
+    }
+
+    /* imageBesideText */
+
+    #imageBesideText .imageBesideTextOrder0{
+        order: 0;
+    }
+
+    #imageBesideText .imageBesideTextOrder1{
+        order: 1;
+        margin-top: 130px;
+    }
+
+    #imageBesideText .textContent{
+        max-width: 100%;
+    }
+
+    #imageBesideText .imageContent>svg{
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    #imageBesideText .date{
+        top: 52px
+    }
+
+    #imageBesideText .date svg{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #imageBesideText .leftMan{
+        left: 45px;
+        top: 97px;
+        max-width:100%;
+    }
+
+    #imageBesideText .rightMan{
+        left: 200px;
+        top: 76px;
+        max-width:100%;
+    }
+
+    #imageBesideText .cloud{
+        top: -200px;
+        max-width: 524px;
+        left: 30px;
+    }
+
+    #imageBesideText .tower {
+        top: -35px;
+        max-width:100%;
+    }
+
+    #imageBesideText .sun {
+        left: 10px;
+        max-width:100%;
+    }
+
+    #imageBesideText .moon{
+        right: 10px;
+        max-width:100%;
+    }
+
+    #imageBesideText .imageContentRight,
+    #imageBesideText .imageContentLeft{
+        margin: auto;
+    }
+
+    /* contactFormSection */
+
+    #contactFormSection .smallerWidth{
+        max-width: 100%;
+    }
+
+    #contactFormSection .imageContactFormSection .building{
+        width: 100%;
+    }
+
+    .formTitle .bigTitle {
+        font-size: 60px;
+        line-height: 85px;
+    }
+
+    #contactFormSection .contactFormSectionFormSide{
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 767px){
+    /* tabsSection */
+
+    #tabsSection .tabsSectionFlex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tabsSection .tabsSectionFlex .tabContent{
+        order: 0;
+        margin: 60px 0 80px;
+    }
+
+    #tabsSection .tabsSectionFlex .description{
+        order: 1;
+        margin-bottom: 0;
+    }
+
+    /* contactFormSection */
+
+    .formTitle .bigTitle {
+        font-size: 42px;
+        line-height: 60px;
+    }
+
+    /* footer */
+
+    footer .oficeinformations{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 650px){
+    /* imageBesideText */
+
+    #imageBesideText .imageContent>svg{
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    #imageBesideText .date{
+        top: 42px
+    }
+
+    #imageBesideText .date svg{
+        max-width: 100px;
+        max-height: 92px;
+    }
+
+    #imageBesideText .leftMan{
+        left: 36px;
+        top: 75px;
+        max-width: 164px;
+    }
+
+    #imageBesideText .rightMan{
+        left: 160px;
+        top: 65px;
+        max-width: 192px;
+    }
+
+    #imageBesideText .cloud{
+        top: -160px;
+        max-width: 419px;
+        left: 24px;
+    }
+
+    #imageBesideText .tower {
+        top: -28px;
+        max-width: 170px;
+    }
+
+    #imageBesideText .sun {
+        left: 8px;
+        max-width: 126px;
+    }
+
+    #imageBesideText .moon{
+        right: 8px;
+        max-width: 126px;
+    }
+}
+
+@media (max-width: 510px){
+    /* tabsSection */
+
+    #tabsSection{
+        text-align: center;
+    }
+
+    /* photoBesideText */
+
+    #photoBesideText .sideContent{
+        text-align: center;
+        padding: 0;
+    }
+
+    #photoBesideText .separator{
+        margin: 40px auto;
+    }
+
+    #photoBesideText .sideContent .button{
+        margin: 0 auto;
+    }
+
+    .imageSquare{
+        padding: 5px;
+        height: 180px;
+        width: 180px;
+    }
+
+    /* baner */
+
+    #baner .logo{
+        margin: 70px 0 50px;
+    }
+
+    #baner.midPageBaner .logo svg{
+        max-width: 100%;
+        height: auto;
+    }
+
+    #baner .title{
+        margin-bottom: 50px;
+    }
+
+    #baner.midPageBaner .logo{
+        margin-bottom: 50px;
+    }
+
+    /* imageBesideText */
+
+    #imageBesideText{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    #imageBesideText .button {
+        margin: auto;
+    }
+
+    #imageBesideText .imageBesideTextOrder1 {
+        margin-top: 70px;
+    }
+
+    #imageBesideText .imageContent>svg{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    #imageBesideText .date{
+        top: 31px
+    }
+
+    #imageBesideText .date svg{
+        max-width: 75px;
+        max-height: 69px;
+    }
+
+    #imageBesideText .leftMan{
+        left: 27px;
+        top: 58px;
+        max-width: 123px;
+    }
+
+    #imageBesideText .rightMan{
+        left: 120px;
+        top: 46px;
+        max-width: 148px;
+    }
+
+    #imageBesideText .cloud{
+        top: -120px;
+        max-width: 314px;
+        left: 18px;
+    }
+
+    #imageBesideText .tower{
+        top: -21px;
+        max-width: 125px;
+    }
+
+    #imageBesideText .sun{
+        left: 6px;
+        max-width: 97px;
+    }
+
+    #imageBesideText .moon{
+        right: 6px;
+        max-width: 97px;
+    }
+
+    /* twoImagesSection */
+
+    #twoImagesSection .imageSquare {
+        height: 180px;
+        width: 180px;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    #twoImagesSection .imageSquare .imageTextTitle{
+        margin-bottom: 20px;
+    }
+
+    #twoImagesSection .imageSquare .imageTextTitle {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    /* contactFormSection */
+
+    .formTitle .bigTitle{
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    #contactFormSection .smallerWidth{
+        text-align: center;
+    }
+
+    #contactFormSection .contactFormSectionFormSide{
+        padding-top: 80px;
+    }
+
+    #contactFormSection .contactFormSectionFormSide .formTitle{
+        text-align: center;
+    }
+
+    /* footer */
+
+    footer .title{
+        margin-bottom: 40px;
+    }
+
+    footer .oficeinformations{
+        grid-gap: 20px;
+    }
+}
+
+@media (max-width: 480px){
+    /* baner */
+
+    #baner .signature{
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    /* fullScreenImage */
+
+    .fullScreenImage{
+        padding-top: 350px
+    }
+
+    /* tabsSection */
+
+    #tabsSection {
+        padding: 60px 0 100px;
+    }
+
+    #tabsSection .title{
+        margin-bottom: 60px;
+    }
+
+    .tabs{
+        margin: 40px 0;
+    }
+
+    .tab p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #tabsSection .tabsSectionFlex .tabContent{
+        margin: 40px 0 60px;
+    }
+
+    /* photoBesideText */
+
+    #photoBesideText {
+        margin-bottom: 60px;
+    }
+
+    #photoBesideText .image{
+        padding-top: 350px;
+    }
+
+    #photoBesideText .sideContent{
+        display: block;
+    }
+
+    #photoBesideText .separator {
+        margin: 40px auto 30px;
+    }
+
+    #photoBesideText .subTitle {
+        margin-bottom: 30px;
+    }
+
+    #photoBesideText .title {
+        margin-bottom: 30px;
+    }
+
+    #photoBesideText .colReverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* baner */
+
+    #baner.midPageBaner {
+        margin-top: 0px;
+    }
+
+    /* twoImagesSection */
+
+    #twoImagesSection .image{
+        padding-top: 350px;
+    }
+
+    /* imageBesideText */
+
+    #imageBesideText .subTitle{
+        margin-bottom: 20px;
+    }
+
+    #imageBesideText .title {
+        margin-bottom: 30px;
+    }
+
+    #imageBesideText .text{
+        margin-bottom: 40px;
+    }
+
+    /* contactFormSection */
+
+    .imageContactFormSection .hand {
+        max-width: 100px;
+        bottom: -90px;
+    }
+
+    .imageContactFormSection {
+        margin-bottom: 120px;
+    }
+
+    .textContactFormSection .title {
+        margin-bottom: 30px;
+    }
+
+    #contactFormSection .contactFormSectionFormSide {
+        padding-top: 60px;
+    }
+
+    .formTitle .bigTitle {
+        margin-bottom: 35px;
+    }
+
+}
+
+@media (max-width: 400px){
+    /* imageBesideText */
+
+    #imageBesideText .imageContent>svg{
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    #imageBesideText .date{
+        top: 26px
+    }
+
+    #imageBesideText .date svg{
+        max-width: 62px;
+        max-height: 57px;
+    }
+
+    #imageBesideText .leftMan{
+        left: 22px;
+        top: 48px;
+        max-width: 103px;
+    }
+
+    #imageBesideText .rightMan{
+        left: 100px;
+        top: 38px;
+        max-width: 123px;
+    }
+
+    #imageBesideText .cloud{
+        max-width: 262px;
+        top: -100px;
+        left: 15px;
+    }
+
+    #imageBesideText .tower{
+        top: -18px;
+        max-width: 104px;
+    }
+
+    #imageBesideText .sun{
+        left: 5px;
+        max-width: 81px;
+    }
+
+    #imageBesideText .moon{
+        right: 5px;
+        max-width: 81px;
+    }
+
+    /* contactFormSection */
+
+    .formTitle .bigTitle{
+        letter-spacing: 6px;
+    }
+}
+
+@media (max-width: 359px){
+    /* imageBesideText */
+    #imageBesideText .sun{
+        max-width: 75px;
+    }
+
+    #imageBesideText .moon{
+        max-width: 75px;
+    }
+
+    /* contactFormSection */
+
+    .formTitle .bigTitle{
+        letter-spacing: 4px;
+    }
+}
